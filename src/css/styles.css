@@ -1,0 +1,121 @@
+html{
+scroll-behavior: smooth;
+}
+
+body{
+margin: 0 auto;
+background-color: hsl(201,86%,86%);
+min-width: 1220px;
+}
+
+.fundo{
+display: flex;
+width: 100%;
+background-size: cover;
+justify-content: center;
+}
+
+.musica{
+width: 420px;
+height: 220px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.cartao{
+background-color: white;
+font-family: 'Red Hat Display', sans-serif;
+width: 420px;
+height: 620px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+border-radius: 20px;
+text-align: center;
+margin: 0 auto;
+max-width: 40%;
+align-items: center;
+position: absolute;
+top: 29%;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+.titulo{
+font-size:xx-large;
+font-weight: 800;
+color:  #111d3a;
+}
+
+.descricao{
+color: #717682;
+line-height: 25px;
+}
+
+.fundo2{
+background-color: #f8f9fe;
+width: 300px;
+height: 80px;
+border-radius: 10px;
+margin-top: 0;
+align-items: center;
+display: flex;
+gap: 50px;
+}
+
+#icon{
+color: #111d3a;
+font-size: 45px;
+}
+
+.plano{
+font-size: medium;
+color: #111d3a;
+font-weight: 800;
+}
+
+.change{
+color: blue;
+text-decoration: underline;
+font-size: small;
+
+}
+
+.pay{
+background-color:#382ae1;
+color: white;
+font-size: medium;
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 700;
+border-radius: 10px;
+width: 350px;
+height: 50px;
+border: 5px;
+}
+
+.pay:hover{
+cursor: pointer;
+color:#382ae1;
+background-color: #fff;
+border: 3px solid #382ae1;
+transition: 0.4s;
+}
+
+.cancel{
+background-color: #ffff;
+color: #717682;
+font-size: medium;
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 700;
+border-radius: 10px;
+width: 350px;
+height: 50px;
+border: 5px;
+cursor: pointer;
+}
+
+.cancel:hover{
+border: 3px solid #382ae1;
+color: #382ae1;
+}
